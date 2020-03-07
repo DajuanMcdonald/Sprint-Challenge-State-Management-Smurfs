@@ -3,15 +3,10 @@ import{ Item , Label, Header, Segment} from "semantic-ui-react";
 
 
 class Smurf extends React.Component {
-    constructor(props) {
-        console.log(props)
-        super(props);
-        this.state = {
-            age: this.props.age,
-            height: this.props.height,
-            name: this.props.name
-        }
+    componentDidMount() {
+        this.props.
     }
+
     render() {
 
         return (
