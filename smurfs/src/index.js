@@ -6,8 +6,12 @@ import App from "./components/App";
 import {Provider} from "react-redux";
 import {createStore} from "redux";
 
+import smartReducer from './reduxStore/reducers'
+
+const store = createStore(smartReducer)
+
 ReactDOM.render(
-    <Provider>
+    <Provider store={store}>
         <App/>
     </Provider>
     , document.getElementById("root"));
