@@ -18,7 +18,7 @@ const GetSmurfs = () => {
 
         axios
             .get('http://localhost:3333/smurfs')
-            .then(res => console.log(res.data))
+            .then(res => console.log('res.data', res.data))
             .catch(error => console.log(error.response.message))
     }, [])
         return (
