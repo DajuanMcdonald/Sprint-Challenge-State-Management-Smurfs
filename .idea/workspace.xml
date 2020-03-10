@@ -2,22 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9bab3908-24dd-4c46-bad5-a8e4e1213236" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/smurfs/src/actions/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smurfs/src/components/SmurfList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smurfs/src/containers/SmurfsContainer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smurfs/src/reducers/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/smurfs/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/smurfs/src/components/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/smurfs/src/components/GetSmurfs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/smurfs/src/components/Smurf.js" beforeDir="false" afterPath="$PROJECT_DIR$/smurfs/src/components/Smurf.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/smurfs/src/components/SmurfForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/smurfs/src/components/SmurfForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/smurfs/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/smurfs/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/smurfs/src/reduxStore/actions.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/smurfs/src/reduxStore/reducers.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +37,7 @@
       <updated>1583539766279</updated>
       <workItem from="1583539771779" duration="11450000" />
       <workItem from="1583612191888" duration="687000" />
-      <workItem from="1583798894947" duration="8503000" />
+      <workItem from="1583798894947" duration="8654000" />
     </task>
     <servers />
   </component>
