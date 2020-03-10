@@ -8,7 +8,7 @@ export const getSmurfs = () => dispatch => {
 
     axios.get('http://localhost:3333/smurfs')
         .then( res => {
-            console.log(res.data)
+            console.log('res.data.get', res.data)
             dispatch({ type: GET_API_SUCCESS, payload: res.data})
         })
         .catch(error => {
@@ -24,7 +24,7 @@ export const postSmurfs = (newSmurf) => dispatch => {
     dispatch({ type: POST_API_START })
     axios.post('http://localhost:3333/smurfs, newSmurf')
         .then( res => {
-            console.log(res.data)
+            console.log('res.data', res.data)
             dispatch({ type: POST_API_SUCCESS, payload: res.data })
         })
         .catch(error => {

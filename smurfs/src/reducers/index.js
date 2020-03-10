@@ -41,6 +41,25 @@ export default (state = initialState, action) =>  {
 
 
             }
+
+        case POST_API_START:
+            return {
+                ...state,
+                isPosting: true
+
+            }
+
+        case POST_API_SUCCESS:
+            return {
+                ...state,
+                smurfs: action.payload,
+                isPosting: false
+            }
+
+        case POST_API_FAILURE:
+            return {
+
+            }
         default:
             return state
     }

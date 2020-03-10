@@ -38,25 +38,25 @@ class SmurfForm extends React.Component {
         return (
             <div>
                 <h1>Add new Smurf</h1>
-                <form onSubmit={this.postSmurf}>
+                <form method="post" onSubmit={this.postSmurf}>
                     <div>
                         <h2> Name:</h2>
                         <input type="text"
-                               // value={this.state.newSmurf.name}
+
                                onChange={this.handleChange}
                         />
                     </div>
                     <div>
                         <h2>Age: </h2>
                         <input type="number"
-                               // value={this.state.newSmurf.age}
+
                                onChange={this.handleChange}
                         />
                     </div>
                     <div>
                         <h2>Height: </h2>
                         <input type="text"
-                               // value={this.state.newSmurf.height}
+
                                onChange={this.handleChange}
                         />
                     </div>
@@ -71,9 +71,9 @@ class SmurfForm extends React.Component {
 
 const mapStateToProps = state => {
     return {
-        postSmurfs: state.postSmurf,
+        postSmurfs: state.postSmurfs,
 
     }
 }
 
-export default connect(mapStateToProps, {postSmurfs})  (SmurfForm);
+export default connect(mapStateToProps, {postSmurfs})(SmurfForm);
