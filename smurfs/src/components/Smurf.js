@@ -1,32 +1,28 @@
-import React from "react";
-import{ Item , Label, Header, Segment} from "semantic-ui-react";
-
+import React from 'react';
 
 class Smurf extends React.Component {
-    componentDidMount() {
-        this.props.
+    constructor(props) {
+        super(props);
+        this.state = {
+            smurfs: {
+                name: '',
+                height: '',
+
+            }
+        }
     }
-
     render() {
-
         return (
-            <Item.Group>
-                <Item>
-                    <Item.Content>
-                        <Item.Header>Smurf Village</Item.Header>
-
-                    </Item.Content>
-
-                </Item>
+            <React.Fragment>
+                <h1>Name: {this.props.smurf.name}</h1>
+                <h3> Age: {this.props.smurf.age}</h3>
+                <p> Height: {this.props.smurf.height}</p>
 
 
 
-            </Item.Group>
+            </React.Fragment>
         );
     }
 }
 
 export default Smurf;
-
-
-//Design the functionality to add a smurf to the Smurf DB

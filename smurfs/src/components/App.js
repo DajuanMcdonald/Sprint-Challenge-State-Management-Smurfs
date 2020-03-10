@@ -1,12 +1,13 @@
 import React from "react";
 import "./App.css";
-import GetSmurfs from "./GetSmurfs";
+import SmurfsContainer from '../containers/SmurfsContainer';
 class App extends React.Component {
   render() {
     return (
         <React.Fragment>
             <h1>Le Pays Maudit</h1>
-            <GetSmurfs/>
+            <SmurfsContainer/>
+
 
         </React.Fragment>
     );
