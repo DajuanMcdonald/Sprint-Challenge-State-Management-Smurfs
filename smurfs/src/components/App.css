@@ -1,3 +1,21 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  background: #1023;
+  border: 1px solid #511;
 }
+.smurf {
+  border: 2px solid #1222;
+  color: blue;
+  width: 25rem;
+  margin: 5%;
+}
+
+.smurf-list {
+  border: 1px solid #551111;
+  margin: 2%;
+  display: inline-block;
+  width: 29rem;
+}
+
